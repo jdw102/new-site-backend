@@ -1,1 +1,4 @@
-export const schemaTypes = []
+import settings from "./settings"
+import workExperience from "./workExperience"
+
+export const schemaTypes = [settings, workExperience]
