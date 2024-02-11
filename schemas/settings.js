@@ -61,6 +61,38 @@ export default {
                     title: 'Image'
                 }
             ]
+        },
+        {
+            name: 'resume',
+            type: 'file',
+            title: 'Resume'
+        },
+        {
+            name: 'socialLinks',
+            type: 'array',
+            title: 'Social Links',
+            of: [
+                {
+                    type: 'document',
+                    fields: [
+                        {
+                            name: 'name',
+                            type: 'string',
+                            title: 'Name'
+                        },
+                        {
+                            name: 'url',
+                            type: 'url',
+                            title: 'URL'
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            name: 'email',
+            type: 'string',
+            title: 'Email'
         }
     ]
   }
