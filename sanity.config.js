@@ -35,8 +35,9 @@ export default defineConfig({
                   .schemaType("settings")
                   .documentId("settings")
               ),
-              S.documentTypeListItem("workExperience").title("Work Experience"), // Add this line to the list of items
-
+              S.documentTypeListItem("workExperience").title("Work Experiences"), // Add this line to the list of items
+              S.documentTypeListItem("project").title("Projects"), // Add this line to the list of items
+              S.documentTypeListItem("skill").title("Skills"), // Add this line to the list of items
           ]),
     }),
     visionTool(),

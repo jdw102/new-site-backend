@@ -93,6 +93,21 @@ export default {
             name: 'email',
             type: 'string',
             title: 'Email'
+        },
+        {
+            name: 'projectBlurb',
+            type: 'text',
+            title: 'Project Blurb'
+        },
+        {
+            name: 'contactBlurb',
+            type: 'text',
+            title: 'Contact Blurb'
+        },
+        {
+            name: 'contactImage',
+            type: 'image',
+            title: 'Contact Image'
         }
     ]
   }
