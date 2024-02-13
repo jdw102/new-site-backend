@@ -53,6 +53,11 @@ export default {
                     title: 'File',
                     type: 'file',
                     hidden: ({ parent }) => !parent || parent.fieldType !== 'file'
+                },
+                {
+                    name: 'githubLink',
+                    title: 'Github Link',
+                    type: 'string'
                 }
             ]
         },
